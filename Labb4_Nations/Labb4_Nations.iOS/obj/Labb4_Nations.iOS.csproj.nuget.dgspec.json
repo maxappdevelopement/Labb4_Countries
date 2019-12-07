@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/Labb4_Nations.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/Labb4_Nations.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/Labb4_Nations.iOS.csproj",
+        "projectName": "Labb4_Nations.iOS",
+        "projectPath": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/Labb4_Nations.iOS.csproj",
+        "packagesPath": "/Users/maxfriman/.nuget/packages/",
+        "outputPath": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/maxfriman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/Labb4_Nations.csproj": {
+                "projectPath": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/Labb4_Nations.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/Labb4_Nations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/Labb4_Nations.csproj",
+        "projectName": "Labb4_Nations",
+        "projectPath": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/Labb4_Nations.csproj",
+        "packagesPath": "/Users/maxfriman/.nuget/packages/",
+        "outputPath": "/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maxfriman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

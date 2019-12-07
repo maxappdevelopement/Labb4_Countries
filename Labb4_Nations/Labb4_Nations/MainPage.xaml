@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Labb4_Nations.MainPage"
+             Title="Labb4">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Previous"
+                     Command="{Binding PreviousButtonCommand}"
+                     />
+        <ToolbarItem Text="Next"
+                     Command="{Binding NextButtonCommand}"
+                     />
+    </ContentPage.ToolbarItems>
+  
+    <ScrollView>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Start"
+                     Margin="0,30,0,30"
+                     Spacing="20">                    
+            <Image Source="{Binding SelectedCountry.PictureUrl}"
+                   HeightRequest="100"
+                   WidthRequest="150"
+                   Aspect="AspectFit"
+                   />           
+            <Label Text="{Binding SelectedCountry.Name, StringFormat='Current Country: {0}'}"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   />
+            <Label Text="{Binding SelectedCountry.Currency, StringFormat='Currency: {0}'}"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                    />
+            <Label Text="{Binding SelectedCountry.Population, StringFormat='Population: {0}'}"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   />         
+            <Label Text="{Binding SelectedCountry.Description}" 
+                   HorizontalOptions="StartAndExpand"
+                   Margin="0,0,0,20"
+                   />        
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

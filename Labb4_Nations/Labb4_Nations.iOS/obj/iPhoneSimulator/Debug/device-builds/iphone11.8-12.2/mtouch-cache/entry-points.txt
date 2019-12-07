@@ -1,0 +1,65 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/maxfriman/Developement/XamarinProjects/Labb4_Countries/Labb4_Nations/Labb4_Nations.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret
