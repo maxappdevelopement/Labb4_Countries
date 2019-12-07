@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{796D0D0C-85DA-4097-BBEF-911197C653BD}|Default">
+  <MonoDevelop.Ide.ItemProperties.Labb4__Nations.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6565F6A-7DCA-447B-97AF-279179DDD8BE" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Labb4_Nations/Labb4_Nations/Models/CountryRepository.cs">
+    <Files>
+      <File FileName="Labb4_Nations/Labb4_Nations/Models/CountryRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Labb4_Nations" expanded="True">
+            <Node name="Labb4_Nations" expanded="True">
+              <Node name="Models" expanded="True" selected="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>observable</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Labb4__Nations.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Labb4_Nations/Labb4_Nations/Models/CountryRepository.cs" line="34" offsetX="-1" offsetY="-1" expression="CountryRepository" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
