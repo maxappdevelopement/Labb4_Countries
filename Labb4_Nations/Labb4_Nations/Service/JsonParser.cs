@@ -2,7 +2,7 @@
 using System.Reflection;
 using Newtonsoft.Json;
 
-namespace Labb4_Nations.Repository
+namespace Labb4_Nations
 {
     public class JsonParser<T>
     {
@@ -10,7 +10,7 @@ namespace Labb4_Nations.Repository
 
        public void Parse(string json)
         {
-            var assembly = typeof(MainPage).GetTypeInfo().Assembly;
+            var assembly = typeof(T).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{json}");
             using (var reader = new StreamReader(stream))
             {

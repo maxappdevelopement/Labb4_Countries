@@ -1,27 +1,27 @@
-﻿using Labb4_Nations.Repository;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Labb4_Nations
 {
     class CountryRepository
     {
-        private List<Country> countries;
+        public List<Country> Countries {get; set;}
+        private JsonParser<CountryRepository> jsonParser;
 
         public List<Country> GetCountries()
         {
-            return countries;
+            ParseJson();
+            return Countries;
         }
 
         public CountryRepository()
         {
-            ParseJson();
+            jsonParser = new JsonParser<CountryRepository>();            
         }
 
         private void ParseJson()
-        {
-            JsonParser<CountryRepository> jsonParser = new JsonParser<CountryRepository>();
+        {           
             jsonParser.Parse("rawData.json");
-            countries = jsonParser.Type.countries;         
+            Countries = jsonParser.Type.Countries;            
         }          
     }
 }
