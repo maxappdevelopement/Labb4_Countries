@@ -1,42 +1,27 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using Labb4_Nations.Repository;
 using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Text;
-
 
 namespace Labb4_Nations
 {
     class CountryRepository
     {
-        private CountryList countries;
-       
+        private List<Country> countries;
+
+        public List<Country> GetCountries()
+        {
+            return countries;
+        }
+
         public CountryRepository()
         {
-            GetJsonData();
+            ParseJson();
         }
 
-        public List<Country> GetCountries() {
-            return countries.Countries;
-        }
-
-        private void GetJsonData()
+        private void ParseJson()
         {
-            string jsonFileName = "rawData.json";
-            
-            var assembly = typeof(MainPage).GetTypeInfo().Assembly;
-            Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{jsonFileName}");
-            using (var reader = new StreamReader(stream))
-            {
-                var jsonString = reader.ReadToEnd();            
-                countries = JsonConvert.DeserializeObject<CountryList>(jsonString);
-            }          
-        }
-
-        private class CountryList
-        {
-            public List<Country> Countries { get; set; }
-        }
+            JsonParser<CountryRepository> jsonParser = new JsonParser<CountryRepository>();
+            jsonParser.Parse("rawData.json");
+            countries = jsonParser.Type.countries;         
+        }          
     }
 }
